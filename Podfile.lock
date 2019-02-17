@@ -1,0 +1,29 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LocaleDependentLib (0.1.0)
+  - LocaleDependentLib/Tests (0.1.0):
+    - FBSnapshotTestCase
+
+DEPENDENCIES:
+  - LocaleDependentLib (from `./LocaleDependentLib`)
+  - LocaleDependentLib/Tests (from `./LocaleDependentLib`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LocaleDependentLib:
+    :path: "./LocaleDependentLib"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LocaleDependentLib: 14e647709f5dd0e82663aced67e28809062cff17
+
+PODFILE CHECKSUM: d80af2f362a46ab292879fbd8ab74e5aa6973a75
+
+COCOAPODS: 1.6.0
