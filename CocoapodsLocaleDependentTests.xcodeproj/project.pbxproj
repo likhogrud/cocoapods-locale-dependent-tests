@@ -283,16 +283,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestsBundle/Pods-TestsBundle-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/LocaleDependentLib/LocaleDependentLib.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-TestsBundle/Pods-TestsBundle-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LocaleDependentLib.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-TestsBundle/Pods-TestsBundle-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
