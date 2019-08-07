@@ -1,4 +1,3 @@
 source "https://rubygems.org"
 
-gem 'cocoapods', :git => 'https://github.com/CocoaPods/CocoaPods'
-gem 'cocoapods-core', :git => 'https://github.com/CocoaPods/Core'
+gem 'cocoapods', '1.8.0.beta.1'

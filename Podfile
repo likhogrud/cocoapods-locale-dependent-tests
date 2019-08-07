@@ -7,6 +7,8 @@ end
 
 target 'TestsBundle' do
     project 'CocoapodsLocaleDependentTests'
-    pod 'LocaleDependentLib', :path => "./LocaleDependentLib", :testspecs => ['Tests']
+
+    pod 'TestHost', :path => "./TestHost"
+    pod 'LocaleDependentLib', :path => "./LocaleDependentLib", :testspecs => ["Tests"]
 end
 
