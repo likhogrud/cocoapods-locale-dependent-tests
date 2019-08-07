@@ -34,7 +34,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "70B7EAC771EE397342D8C1CF767C5DB7"
+               BlueprintIdentifier = "C13367885639114DA9EE916944CBEDE8"
                BuildableName = "LocaleDependentLib-Unit-Tests.xctest"
                BlueprintName = "LocaleDependentLib-Unit-Tests"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">

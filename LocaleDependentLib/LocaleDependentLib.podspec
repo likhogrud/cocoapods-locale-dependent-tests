@@ -18,6 +18,15 @@ Pod::Spec.new do |s|
     spec.source_files = 'Tests/**/*.swift'
     spec.dependency 'FBSnapshotTestCase'
     spec.requires_app_host = true
+    spec.app_host_name = 'LocaleDependentLib/TestHost'
+    spec.dependency 'LocaleDependentLib/TestHost'
+  end
+
+  s.app_spec 'TestHost' do |spec|
+    spec.info_plist = {
+      'CFBundleDevelopmentRegion' => 'ru_RU'
+    }
+    spec.source_files = 'AppDelegate.swift'
   end
 
 end
